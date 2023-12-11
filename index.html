@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hexagon.css">
+    <link rel="stylesheet" href="testimonials.css">
     <script src="https://kit.fontawesome.com/ecd109f60f.js" crossorigin="anonymous"></script>
     
 
 </head>
 <body>
-    <nav id="top">
+  <div  id="top" class="quick">
+    <h5> +977 980000000</h5>
+    <h5> +977 980000000</h5>
+    <h5>07600000</h5>
+    <h4>contactus@gmail.com</h4>
+  </div>
+    <nav>
         <input type="checkbox"  id="check">
         <label class="lab" for="check">
             <i class="fa-solid fa-bars" id="btn"></i>
@@ -23,6 +31,7 @@
             <li><a href="about.html">About</a></li>
             <li><a href="#programs">Programs</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#passouts">Passouts</a></li>
            
         </ul>
@@ -38,7 +47,41 @@
             <div class="btn enroll-btn"><p>Book Your Seat.</p></div>
         </div>
         <div class="right">
-            <img src="resources/main.jpg" alt="img">
+          <div class="wrap">
+            <div class="clip-block">
+              <div class="clip-each clip-solid">
+              <div class="social-share-block">
+                <span class="social-each"><strong>10</strong>
+                </span> <span>&hearts;</span>
+              </div>
+              </div>	
+            </div> <!-- /clip-block -->
+        
+            <div class="clip-block">
+              <a href="#" class="clip-each clip-gradient">
+                
+              </a>	
+              <a href="#" class="clip-each clip-border">
+                
+              </a>	
+            </div>
+            <svg class="clip-svg">
+              <defs>
+                <clipPath id="hexagon-clip" clipPathUnits="objectBoundingBox">
+                  <polygon points="0.25 0.05, 0.75 0.05, 1 0.5, 0.75 0.95, 0.25 0.95, 0 0.5" />
+                </clipPath>
+              </defs>
+            </svg>	
+        
+            <svg class="clip-svg">
+              <defs>
+                <clipPath id="triangle-clip" clipPathUnits="objectBoundingBox">
+                  <polygon points="1 0.03, 0.17 1, 1 1" />
+                </clipPath>
+              </defs>
+            </svg>	
+          </div> <!-- /wrap -->
+        
         </div>
     </div>
 
@@ -128,45 +171,12 @@
 </div>
 
 
-
-    <!-- -------------------about-------------------- -->
-<!-- 
-    <div class="about" id="about">
-       
-        <div class="curved-div upper">
-      
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
-              <path fill="#129800" fill-opacity="1" d="M0,224L60,234.7C120,245,240,267,360,245.3C480,224,600,160,720,154.7C840,149,960,203,1080,218.7C1200,235,1320,213,1380,202.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
-            </svg>
-            
-           
-          </div>  
-          <div class="curved-div">
-              <h1>About US</h1>
-            <div class="about-content">
-                <div class="left">
-                    <img src="https://goodmockups.com/wp-content/uploads/2021/02/Free-Corporate-Building-3D-Logo-Mockup-PSD.jpg" alt="">
-                </div>
-                <div class="right">
-                    <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem quidem hic, voluptates deserunt, voluptas consequuntur fugit aut minus eaque sit ratione distinctio blanditiis molestiae aliquam numquam. Dolorum, saepe blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestiae id odio, labore aspernatur iste! Repudiandae nulla eveniet at distinctio ullam? Omnis veritatis aspernatur ea esse modi quisquam vero dolor? adipisicing elit. Ratione excepturi perferendis voluptate. Ducimus libero totam vel, fugit amet iusto perspiciatis quis harum laborum magnam dolores velit eius dolor, repellendus officiis.</p>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sit impedit neque veritatis! Nemo vel nobis sint tempora hic, quibusdam eaque voluptate corrupti adipisci cupiditate est maxime! Adipisci, placeat! Animi?</p>
-                </div>
-            </div>
-        
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
-              <path fill="#fff" fill-opacity="1" d="M0,96L80,90.7C160,85,320,75,480,106.7C640,139,800,213,960,224C1120,235,1280,181,1360,154.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
-         
-          
-        </div>
-    </div>
- -->
-
 <!-- ------------------------programs----------------- -->
 
 
  <div class="programs" id="programs">
-    <div class="curved-div upper">     
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 318">
+    <div style="display: block;" class="curved-div upper">     
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
           <path fill="#127205" fill-opacity="1" d="M0,224L60,234.7C120,245,240,267,360,245.3C480,224,600,160,720,154.7C840,149,960,203,1080,218.7C1200,235,1320,213,1380,202.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
         </svg>
         
@@ -234,14 +244,129 @@
 
    </div>
 
-    <div class="passouts" id="passouts"></div>
+    <div class="passouts" id="passouts">
+
+
+
+      <div class="curved" id="contact">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#fff" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,64C384,64,480,64,576,74.7C672,85,768,107,864,106.7C960,107,1056,85,1152,64C1248,43,1344,21,1392,10.7L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+          <div class="ht-determiner">
+  
+         
+         <div class="pout">
+          <h1 class="sub-title">We are Proud of </h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore maxime eveniet hic velit placeat accusantium minus eos rem ducimus vitae necessitatibus quasi aliquam numquam, obcaecati blanditiis, eligendi quibusdam harum reprehenderit!</p>
+          <div class="row">
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+            <div class="box">
+              <img src="resources/dog-profile.jpg" alt="profile">
+              <h5>Henery Jacklin</h5>
+              <h6>Rank : 17</h6>
+               <p>Spain Dog Foundation</p>
+            </div>
+          </div>
+         </div>
+        </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L80,90.7C160,85,320,75,480,106.7C640,139,800,213,960,224C1120,235,1280,181,1360,154.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+       
+        </div>
+        
+    </div>
+
+<!-- --------------testimonials--------- -->
+<div class="testimonial">
+   <div class="tem">
+    <div class="reviewer">
+      <h3 style="color: rgb(51, 50, 50); font-weight: bold;">Testimonials</h3>
+      <img src="resources/dog-profile.jpg" alt="profile">
+    </div>
+    <div class="line1">
+      <div class="box"><h1>“</h1></div>
+    </div>
+    <div class="content">
+    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur eaque maiores officia, quis assumenda id non sequi odio quia eius cumque atque architecto obcaecati sunt in reprehenderit! Deleniti, ducimus illo?.Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam ipsam at, non aperiam sapiente sed voluptatum repudiandae nihil earum architecto deleniti nesciunt nam itaque sunt a impedit quasi eos!</h3>
+     <h2 style="width: 100%; text-align: right;padding-right: 20px;">-Freddy Singh</h2>
+  </div>
+    <div class="line2">
+      <div class="box"><h1>”</h1></div>
+    </div>
+   </div>
+</div>
+
+
+
 
 
 
     <!-- ------------------------contact----------------- -->
  
     <div class="curved" id="contact">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,64C384,64,480,64,576,74.7C672,85,768,107,864,106.7C960,107,1056,85,1152,64C1248,43,1344,21,1392,10.7L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#fff" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,64C384,64,480,64,576,74.7C672,85,768,107,864,106.7C960,107,1056,85,1152,64C1248,43,1344,21,1392,10.7L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
         <div class="ht-determiner">
 
        
@@ -299,6 +424,10 @@
                         <span>Email Address</span>
                     </div>
                     <div class="inputBox">
+                      <input id="phone" type="number" name="Phone" required>
+                      <span>Phone Number</span>
+                  </div>
+                    <div class="inputBox">
                        <textarea name="Message" id="message"  required></textarea>
                         <span>Your Message...</span>
                     </div>
@@ -331,7 +460,7 @@
 </div>
 </div>
 
-
+<!-- --------gadgets----------- -->
 
 
 <div class="cop">
@@ -347,6 +476,6 @@
 
 
     <div class="arrow"><i class="fa-solid fa-caret-up"></i></div>
-    <a class="arrow" href="index.html"><i class="fa-solid fa-caret-up"></i></a>
+    <a class="arrow" href="#top"><i class="fa-solid fa-caret-up"></i></a>
 </body>
 </html>
