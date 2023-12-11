@@ -1,1 +1,113 @@
+:root{
+    --main-color:#127205;
+    --primary-color:#0f5c05;
+    --primary-padding:90px:
 
+}
+
+
+.testimonial{
+    height: 100vh;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tem{
+    width: 60%;
+    height: auto;
+    background: #ffca52;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(5deg);
+
+}
+.tem .reviewer img{
+    height: 100px;
+    width: 100px;
+    border: 15px ridge white;
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+
+}
+.tem .reviewer{
+    padding: 15px;
+    
+}
+.tem .content{
+    height: 100%;
+    padding: 10px 20px;
+}
+.tem .line1,
+.tem .line2{
+    width: 100%;
+}
+.tem .line1 .box h1,
+.tem .line2 .box h1{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    padding: 0;
+    transform: translateY(10px);
+}
+.tem .line1 .box,
+.tem .line2 .box{
+    background: blue;
+    height: 50px;width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; 
+}
+.tem .line1{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+   position: absolute;
+   top: 0;left: 0;
+   margin: 0;
+}
+
+.tem .line2{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.tem .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+}
+.tem .content h3{
+width: 60%;
+text-align: center;
+color: rgb(19, 18, 18);
+line-height: 1.4rem;
+}
+
+@media (max-width:860px) {
+    
+.tem{
+    width: 80%;
+    height: auto;
+    transform: rotate(3deg);
+}
+
+.tem .content{
+    height: 100%;
+    padding-top: 110px;
+}
+
+.tem .content h3{
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(19, 18, 18);
+    line-height: 1.4rem;
+    }
+}
