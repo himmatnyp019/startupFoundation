@@ -46,6 +46,17 @@ html{
     border-radius: 10px;
     border: 2px solid white;
 }
+
+.quick{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  background: #014b94;
+  width: 100%;
+  margin: 0;
+  padding: 5px 0px;
+}
 nav{
     height: 70px;
     background: white;
@@ -313,35 +324,28 @@ margin: 0 30px;
 .home{
     width: 100%;
     height: 100vh;
-    
     margin: 0;
-    display: flex;
-    flex-direction: row;
+   display: flex;
+   flex-direction: row;
 }
 .right{
-   
     padding: 0;
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-left: 10px;
     width: auto;
-}
-.right img {
-    height: 330px;
-    width: 400px;
+    display: flex;
+    justify-content: bottom;
+    align-items: bottom;
+  
 }
 .left{
-   
-    width: 100%;
-    height: 80%;
-   
+  height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
     padding: 10px 20px;
+    width: auto;
     overflow: hidden;
-   
+  
 }
 .left h2{
     margin-top: 20px;
@@ -564,7 +568,7 @@ flex-direction: column;
 }
 
 .contents{
-  padding: 0 20px;
+  padding: 0 90px;
   transform: translateY(-350px);
 }
   .top-row{
@@ -643,7 +647,7 @@ flex-direction: column;
 
 .contactForm{
 
-  padding: 20px;
+  padding: 0 20px;
   background: white;
   border-radius: 10px;
 }
@@ -710,17 +714,85 @@ transition: background .5s;
 
 
 /* ---------------------passouts-------------- */
+.pout{
+  padding: 0 90px;
+   transform: translateY(-50px);
+
+}
 .passouts{
-    background: #014b94;
+  height: auto;
+}
+.pout .row{
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 170px));
+  justify-content: center;
+  align-items: center;
+}
+.pout h1 {
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  text-align: left;  
+}
+.pout p {
+  padding: 0 20px;
+  width: 90%;
+  text-align: left;
+
+}
+.pout .row .box{
+  height: 170px;
+  border: 2px dashed grey;
+  border-radius: 4px;
+  transition: .4s ease-out;
+  background: transparent;
+  transform: scale(1);
+
+}
+.pout .row .box:hover{
+   background: #0f5c05;
+   border: 2px dashed white;
+   transform: scale(1.1);
+
 }
 
+.pout .row .box:hover img{
+ border-radius: 10px;
 
-
-
-
-
-
-
+}
+.pout .row .box img{
+height: 100px;
+width: 100px;
+border-radius: 50px;
+transition: .4s ease-in;
+}
+.pout .row .box p{
+   font-size: 14px;
+   padding: 0;margin: 0;
+   width: 100%;
+   text-align: center;
+}
+@media (max-width:860px) {
+.pout{
+  padding: 0 20px;
+}
+ .pout h1 {
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  text-align: left;  
+}
+.pout p {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  text-align: left;  
+ 
+  margin-bottom: 10px;
+}
+}
 
 
 
@@ -927,21 +999,19 @@ align-items: center;
 
 @media (max-width:860px) {
   .home{
-   width: 100%;
-  
-  }
-  .right{
-  
-  display: none;
-  }
-  .left{
-    height: 100%;
-  }
-   .right img {
-    height: 230px;
-    /* width: 300px; */
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    
 }
-
+.home .left{
+  height: auto;
+}
+.home .right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .left h2{
     font-size: 3rem;
     font-weight: 800;
